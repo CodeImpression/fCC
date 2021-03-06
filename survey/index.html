@@ -1,0 +1,175 @@
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+<div class="container">
+    <header class="header">
+        <h1 id="title" class="text-center">Global Cat Appreciation Survey</h1>
+        <p id="description" class="description text-center">
+            Thank you for taking the time to further boost the confidence of cats
+        </p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required />
+        </div>
+        <div class ="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required />
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number"
+            >Age <span="clue"> (optional) </span></label>
+            <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age" />
+        </div>
+        <div class="form-group">
+            <p>Which option best describes your love of cats?</p>
+            <select id="dropdown" name="obsession" class="form-control" required>
+                <option disabled selected value>Select your level of obsession</option>
+                <option value="crazy1">Crazy Cat Lady</option>
+                <option value="crazy2">Crazy Cat Man</option>
+                <option value="ailurophile">Ailurophile</option>
+                <option value="cardinal">CARDINAL RICHELIEU</option>
+                <option value="bastet">Bastet</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Can cats be improved?</p>
+            <label>
+                <input
+                name="user-recommend"
+                value="purrfect"
+                type="radio"
+                class="input-radio"
+                checked />You what? They are Purrfection!
+            </label>
+            <label>
+                <input
+                name="user-recommend"
+                value="kitten"
+                type="radio"
+                class="input-radio" />Are you kitten me?
+            </label>
+            <label>
+                <input
+                name="user-recommend"
+                value="infurior"
+                type="radio"
+                class="input-radio" />Humans are infurior
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>
+                What is a cats best feature?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+                <option disabled selected value>Select an option</option>
+                <option value="floof">Floof</option>
+                <option value="beans">Toe Beans</option>
+                <option value="blep">Blep</option>
+                <option value="teef">Teefies</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>
+                Cat Puns!
+                <span class="clue">(Check all that apply)</span>
+            </p>
+            <label>
+                <input
+                    name="prefer"
+                    value="purrgatory"
+                    type="checkbox"
+                    class="input-checkbox"/>Purrgatory
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="avocato"
+                    type="checkbox"
+                    class="input-checkbox"/>Avocato
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="pawsome"
+                    type="checkbox"
+                    class="input-checkbox"/>Pawsome
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="catastrophe"
+                    type="checkbox"
+                    class="input-checkbox"/>Catastrophe
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="meowsical"
+                    type="checkbox"
+                    class="input-checkbox"/>Meowsical
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="purranormal"
+                    type="checkbox"
+                    class="input-checkbox"/>Purranormal
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="furrbulous"
+                    type="checkbox"
+                    class="input-checkbox"/>Furrbulous
+            </label>
+            <label>
+                <input
+                    name="prefer"
+                    value="catitude"
+                    type="checkbox"
+                    class="input-checkbox"/>Cattitude
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>Please use this box to honour cats</p>
+            <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="=^..^="></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+                Submit
+            </button>
+        </div>
+
+    </form>
+</div>
