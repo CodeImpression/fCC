@@ -1,0 +1,139 @@
+body {
+    background: url(img/triangle-mosaic.png) center fixed;
+  }
+  h1, h2, h3{
+    font-family: 'Pacifico', cursive;
+  }
+  header {
+    padding: 75px 50px;
+  }
+  h1 {
+    font-size: 2.75em;
+    float: left;
+    color: #EC50BA;
+  }
+  h2 {
+    font-size: 1.75em;
+    float: right;
+    color: #40e0d0;
+  }
+  h3 {
+    color: #EC50BA;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  #break {
+    border-top: 5px solid #40e0d0;
+  }
+  .reading, .listening, .time, .watching {
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+  }
+  .watching {
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+  }
+  .listening {
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+  }
+  .time {
+    width: 100%;
+    margin: auto;
+    max-width: 960px;
+    text-align: center;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 100%;
+  }
+  .cover {
+    width: 200px;
+    padding: 50px;
+    height: 300px;
+    border-radius: 0%;
+  }
+  #nook {
+    object-fit: cover;
+  }
+  .phonic {
+    padding: 50px;
+    border-radius: 65px;
+  }
+  .books, .tv, .audio, .chrono {
+    flex: 1;
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  p {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.75em;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: #EC50BA;
+  }
+  a:visited {
+    color: #f396d5;
+  }
+  a:hover {
+    color: #949292;
+  }
+  a:active {
+    color: #bdbdbd;
+  }
+  .footer {
+    overflow: auto;
+    clear: both;
+    height: 250px;
+    padding: 25px 50px 25px 50px;
+    margin: auto;
+    max-width: 960px;
+    border-top: 5px solid #40e0d0;
+  }  
+  .border {
+    width: 100%;
+    border-bottom: 10px solid #40e0d0;
+  }
+  .bye {
+    margin: 50px;
+    padding: 15px;
+  }
+  .top {
+    margin: 25px;
+    padding: 15px;
+  }
+  .hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  }
+  .hvr-grow:hover,
+  .hvr-grow:focus,
+  .hvr-grow:active {
+  transform: scale(1.1);
+  }
